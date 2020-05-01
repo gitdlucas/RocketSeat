@@ -86,3 +86,31 @@
     var masculino = sexo === 'M';
 
     console.log(masculino);
+
+
+    // CONDIÇÃO TERNÁRIA
+
+    var sexo = 'F';
+
+    var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+    
+    console.log(retorno);
+
+    //  --------------------     ESTRUTURA DE REPETIÇÃO
+    // FOR (USADO QUANDO SE CONHECE O VALOR LIMITE)
+    var d = 0;      // Inicialização da variavel com valor zero.
+    d <= 50;        // Valor limite (menor ou igual à 50)
+    d++ ;           // Valor inicial (zero) + 1
+
+     
+    for ( var d = 0; d <= 50; d++ ) {
+        console.log(d);
+    }
+
+    // WHILE (USADO QUANDO NÃO SE CONHECE O VALOR LIMITE)
+
+    var t = 73833033735363
+    while (t > 50){
+        console.log(t);
+        t/=5
+    }
